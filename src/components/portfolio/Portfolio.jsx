@@ -15,10 +15,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Auvenir</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/DinhHauNguyen" className='btn' target='_blank'>Github</a>
+            <a href="https://na.auvenir.com/" className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
         {/* --------- PROJECT 2 ------------- */}
@@ -26,10 +26,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Elearning Platform</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/DinhHauNguyen/Elearning-project-HB" className='btn' target='_blank'>Github</a>
+            <a href="https://highbrowcourses.web.app/" className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
         {/* --------- PROJECT 3 ------------- */}
@@ -37,10 +37,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Booking Movie</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/DinhHauNguyen/CanveMovie" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/DinhHauNguyen/CanveMovie" className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
       </div>

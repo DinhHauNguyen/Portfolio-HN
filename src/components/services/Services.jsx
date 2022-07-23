@@ -53,15 +53,15 @@ const Services = () => {
         {/* -------------- OTHER QUALIFICATION ------------- */}
         <article className="service">
           <div className="service__head">
-            <h3>OTHER</h3>
+            <h3>OTHERS</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
               <div>
                 <h4>Ielts</h4>
-                <p>IPP Loading...</p>
-                <BiCalendar/> <small className='service-light'>2021</small>
+                <p>Loading...</p>
+                {/* <BiCalendar/> <small className='service-light'>2021</small> */}
               </div>
             </li>
           </ul>

@@ -25,8 +25,8 @@ const About = () => {
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>100+ Worldwide</small>
+              <h5>Companies</h5>
+              <small>2+ Worked</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
@@ -35,8 +35,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a Front End Software Engineer with 1 year of experience in Web Development.
-            With my knowledge in UI/UX design, I enjoy solving front-end related problems, creating the best user experience for users. I also spend time learning new technologies and best practices to become a better engineer.
+            Solving front-end related problems, creating the best user experience for users, learning new technologies and best practices to become a better engineer.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
