@@ -20,6 +20,10 @@
     transition: var(--transition);
 }
 
+.about__me-image-detail {
+    height: 80%;
+}
+
 .about__me-image:hover{
     transform: rotate(0);
 

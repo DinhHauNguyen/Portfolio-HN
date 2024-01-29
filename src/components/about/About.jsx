@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about1.jpg'
+import ME from '../../assets/me-about2.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About Image" className='about__me-image-detail'/>
           </div>
         </div>
         <div className="about__content">
@@ -21,17 +21,17 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ Year Working</small>
+              <small>3 Year Working</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Companies</h5>
-              <small>2+ Worked</small>
+              <small>3+ Worked</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>6+ Completed</small>
             </article>
           </div>
           <p>

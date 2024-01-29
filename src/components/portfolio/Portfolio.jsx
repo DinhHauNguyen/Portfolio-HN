@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 
 const Portfolio = () => {
   return (
@@ -17,7 +18,7 @@ const Portfolio = () => {
           </div>
           <h3>Auvenir</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/DinhHauNguyen" className='btn' target='_blank'>Github</a>
+            {/* <a href="https://github.com/DinhHauNguyen" className='btn' target='_blank'>Github</a> */}
             <a href="https://na.auvenir.com/" className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
@@ -41,6 +42,17 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/DinhHauNguyen/CanveMovie" className='btn' target='_blank'>Github</a>
             <a href="https://github.com/DinhHauNguyen/CanveMovie" className='btn btn-primary' target='_blank'>Demo</a>
+          </div>
+        </article>
+        {/* --------- PROJECT 4 ------------- */}
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Alaxala</h3>
+          <div className="portfolio__item-cta">
+            {/* <a href="https://github.com/DinhHauNguyen/CanveMovie" className='btn' target='_blank'>Github</a> */}
+            <a href="http://203.178.142.174:2882/cyber-portal/login" className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
       </div>

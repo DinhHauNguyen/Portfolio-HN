@@ -45,7 +45,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineAddLocationAlt className='contact__option-icon' />
             <h4>Location</h4>
-            <h5>Tan Binh, Ho Chi Minh City</h5>
+            <h5>Ho Chi Minh, Viet Nam</h5>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

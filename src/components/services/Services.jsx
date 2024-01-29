@@ -34,7 +34,7 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon' />
               <div>
-                <h4>Frontend Developer</h4>
+                <h4>Software Engineer Intern</h4>
                 <p>CyberSoft</p>
                 <BiCalendar/> <small className='service-light'>05/2020 - 12/2020</small>
               </div>
@@ -45,6 +45,14 @@ const Services = () => {
                 <h4>Software Engineer</h4>
                 <p>TiTan Corporation</p>
                 <BiCalendar/> <small className='service-light'>11/2021 - 07/2022</small>
+              </div>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <div>
+                <h4>Software Engineer</h4>
+                <p>Hitachi Vantara VietNam</p>
+                <BiCalendar/> <small className='service-light'>07/2022 - Present</small>
               </div>
             </li>
           </ul>
